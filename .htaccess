@@ -1,0 +1,12 @@
+#  RewriteEngine On
+# RewriteRule "^([a-zA-Z0-9_-]+)-([0-9]+)$" "index.php?mod=page&page_id=$2"
+# RewriteRule "^bai-viet" "index.php?mod=post"
+#  RewriteRule "^bai-viet/([0-9]+).html$" "index.php?mod=post&action=detail&post_id=$2&post_url=$1"
+
+#  RewriteRule "^san-pham" "index.php?mod=product"
+#  RewriteRule "^san-pham([a-zA-Z0-9_-]+)-([0-9]+).html$" "index.php?mod=product&action=detail&product_id=$2&product_link=$1"
+
+#  RewriteRule "^danh-muc/([a-zA-Z0-9_-]+)-([0-9]+)$" "index.php?mod=product&action=cat_product&cat_id=$2&cat_link=$1"
+
+# RewriteRule "^gio-hang" "index.php?mod=cart"
+# RewriteRule "^thanh-toan" "index.php?mod=checkout"
